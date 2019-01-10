@@ -1,0 +1,33 @@
+[user]
+    name = yushengjun
+    email = yushengjun@123.com
+[alias]
+    st = status
+    s = status -sb
+    df = diff --ignore-space-change
+    dfc = diff --cached
+    ci = commit
+    co = checkout
+    rb = rebase
+    br = branch
+    ph = push
+    pl = pull
+    f = fetch
+    r = remote
+    rv = remote -v
+    mg = merge
+    dw = diff --word-diff
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+[color]
+    ui = auto
+[core]
+    editor = vim
+    autocrlf = false
+    safecrlf = true
+    #excludesfile = ~/.gitignore
+[help]
+    autocorrect = 1
+[init]
+    templatedir = ~/repos/git_templates
+[pull]
+    rebase = true
